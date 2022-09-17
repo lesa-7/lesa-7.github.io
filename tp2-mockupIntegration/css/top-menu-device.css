@@ -1,0 +1,41 @@
+/** mobile devices*/
+@media screen and (min-width:768px) {
+
+  #nav-button {
+    display: flex;
+  }
+
+  /**
+ 
+  ici pour le menu ul li header (créer une classe)
+  - les li s'affichent en block
+  - tout le header est en block
+  - tout le header est aligné à gauche
+  */
+
+  header {}
+
+  .logo {
+    width: 20vw;
+  }
+
+  .top-menu {}
+
+  .nav-icon {}
+
+  .menu-list {}
+
+  ul.menu-list {}
+
+  li.menu-list {
+    display: inline;
+    float: right;
+  }
+
+  ul.menu-list li a {
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+
+  }
+}

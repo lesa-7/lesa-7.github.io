@@ -1,0 +1,44 @@
+/** desktop*/
+@media (min-width:769px) {
+
+
+    #nav-button {
+        display: none;
+    }
+
+    /**
+    utiliser le modele flex
+  ici pour le menu ul li header on utilise
+  les mêmes classes que pour le mobile mais 
+  on change le contenu des classes de manière
+  à ce que
+  - les li s'affichent en horizontal
+  - tout le header est horizontal
+  - tout le header est aligné à droite
+  */
+    header {}
+
+    .logo {
+        width: 20vw;
+    }
+
+    .top-menu {}
+
+    .nav-icon {}
+
+    .menu-list {}
+
+    ul.menu-list {}
+
+    li.menu-list {
+        display: inline;
+        float: right;
+    }
+
+    ul.menu-list li a {
+        display: block;
+        padding: 8px;
+        background-color: transparent;
+
+    }
+}

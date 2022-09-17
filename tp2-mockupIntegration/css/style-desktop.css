@@ -1,0 +1,15 @@
+@media (min-width:769px) {
+
+    /**contenu du site*/
+    .page {
+        /**classe de debug à supprimer*/
+        min-height: 200px;
+        padding-top: 35px;
+        padding-bottom: 55px;
+        padding-left: 135px;
+        margin-right: 0;
+        padding-right: 0;
+        width: 100vw;
+    }
+
+}

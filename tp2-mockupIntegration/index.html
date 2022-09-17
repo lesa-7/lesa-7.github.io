@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-device.css">
+    <link rel="stylesheet" href="css/style-desktop.css">
     <link rel="stylesheet" href="css/top-menu.css">
+    <link rel="stylesheet" href="css/top-menu-device.css">
+    <link rel="stylesheet" href="css/top-menu-desktop.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/shop.css">
     <link rel="stylesheet" href="css/news.css">
     <link rel="stylesheet" href="css/contact.css">
-   
-    <link rel="stylesheet" href="css/style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,32 +33,35 @@
 
 <body>
 
-    <header>
 
+    <header>
         <!-- LOGO -->
         <div class="logo">
-            <img src="images\cropped-logo_modulox.png" class="logo" alt="Logo Modulox">
+            <img src="img/cropped-logo_modulox.png" class="logo" alt="Logo Modulox">
         </div>
-        <!-- MENU + NAVBAR -->
-        <div class="menu">
-            <div id="nav-button" href="#">
-                <div class="burger-icon"></div>
+
+        <!-- TOPMENU + NAVBUTTON -->
+        <div class="top-menu">
+            <div id="nav-button">
+                <div class="material-icons nav-icon">
+                    menu
+                </div>
             </div>
-            <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#shop">Boutique</a></li>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#news">Actualités</a></li>
-                <li><a href="#my-account">Mon compte</a></li>
-                <li><a href="#cart">Panier</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+            <ul class="menu-list text-primary">
+                <li><a href="#home">ACCUEIL</a></li>
+                <li><a href="#shop">BOUTIQUE</a></li>
+                <li><a href="#about">A PROPOS</a></li>
+                <li><a href="#news">ACTUALITES</a></li>
+                <li><a href="#my-account">MON COMPTE</a></li>
+                <li><a href="#cart">PANIER</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
     </header>
 
-
     <div id="home" class="page">
-        home
+
     </div>
 
     <div id="about" class="page page-bg-primary text-primary">
@@ -74,10 +83,9 @@
             <h3>Recevez les mises à jour instantannément</h3>
             <input class="block" value="Votre mail"></input>
             <button class="bg-secondary text-primary">S'ABONNER</button>
-
         </div>
+
         <div class="news-content">
-            actualités
             <h2>Actualités</h2>
             <p>Découvrez nos dernières nouvelles</p>
             <div class="grid">
@@ -114,18 +122,12 @@
     </footer>
 
 
-
-
+<!-- BOUTONS 
     <div>
         <button class="bg-primary text-primary">En savoir plus</button>
-
         <button class="bg-secondary text-primary">ENVOYER</button>
     </div>
-
-
-
-
-
+-->
 
 </body>
 
