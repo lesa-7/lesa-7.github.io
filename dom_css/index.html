@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM CSS</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="welcome">Bienvenue !</h1>
+        <p id="lessonTitle">Comment changer le style CSS des éléments HTML ?</p>
+        <p id="displayOrHideTitle">AFFICHER / CACHER des éléments</p>
+        <p id="displayOrHide" class="hidden">Vous ne m'aviez pas vu !!!</p>
+    </div>
+
+    <div>
+        <h2>DWWM Septembre 2022</h2>
+        <p>C'est l'histoire d'une classe de futurs développeurs</p>
+        <button id="spoilerButton">SPOILER BUTTON</button>
+        <p class="spoiler">Les stagiaires sont tous très motivés et determinés.</p>
+        <p class="spoiler">Apprendre le développement informatique demande de la concentration, de la rigueur, de la
+            curiosité et beaucoup de pratique !!!</p>
+        <p class="spoiler">C'est aussi du partage, de l'entraide et des moments de déconnade !</p>
+        <p class="spoiler">Ils sont tous capables de réussir leur cursus WESH WESH MOBILE ;)</p>
+        <p class="spoiler">Juin 2023, FELICITATIONS à tous, vous êtes diplômés !!!</p>
+        <p class="spoiler">Bienvenue à la NASA</p>
+    </div>
+
+    <div>
+        <h1>Liste de choses permettant aux stagiaires DWWM de réussir leur année</h1>
+
+        <button id="allCat">Toutes catégories</button>
+        <button id="essentialCat">Indispensables</button>
+        <button id="optionalCat">Optionnelles</button>
+
+        <article class="article essentialCat">Murphy</article>
+        <article class="article essentialCat">Sami</article>
+        <article class="article essentialCat">Stéphane</article>
+        <article class="article essentialCat">Ordinateurs</article>
+        <article class="article essentialCat">Bonne connexion internet</article>
+        <article class="article essentialCat">Motivation</article>
+        <article class="article essentialCat">Travaux pratiques</article>
+        <article class="article optionalCat">Café</article>
+        <article class="article optionalCat">Thé</article>
+        <article class="article optionalCat">Tisane</article>
+        <article class="article optionalCat">Bonbons</article>
+    </div>
+
+
+    <!-- How to display an image in Javascript onclick -->
+    <div>
+        <button onClick="showImage()">CLICK HERE</button>
+
+        <div id="image" style="height:400px; width:400px; display:none;">
+            <img src="thankyou.png" />
+        </div>
+    </div>
+
+    <!--  Insertion du fichier javascript dans HTML -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
